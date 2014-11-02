@@ -10,7 +10,7 @@ class FAZScore
 
   def update(value)
     value = value.to_f
-    if @avg == 0 and @sqr_avg == 0:
+    if @avg == 0 and @sqr_avg == 0
       @avg = value
       @sqr_avg = value ** 2
     else
