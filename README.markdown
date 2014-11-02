@@ -33,7 +33,7 @@ Typically you'll have a set of historical data points that you want to compare t
     end
 
     # Display 'most' trending term with trending score
-    puts scores.sort {|a,b| a[1]<=>b[1]}.last
+    puts score.sort {|a,b| a[1]<=>b[1]}.last
 
 ## Contributing to fazscore
  
