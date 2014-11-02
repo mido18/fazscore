@@ -27,7 +27,7 @@ Typically you'll have a set of historical data points that you want to compare t
                 'Scotland' => 6 }
 
     # Calculate the trending scores
-    scores = {}
+    score = {}
     history.keys.each do |term|
       score[term] = FAZScore.new(0.5, history[term]).score(current[term])
     end
